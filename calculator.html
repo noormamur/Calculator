@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/test.css">
+
+    <!-- <div><title>Calculator</title></div> -->
+    
+</head>
+<body>
+    <div class="cal">
+        
+        <div class="display">
+            <div id="output"></div>
+            <div class="icons">
+                <div>
+                    <ion-icon id="icon" name="arrow-back"></ion-icon>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="buttons">
+            <div class="row">
+                <div class="btn green clear" id="clear">C</div>
+                <div class="btn green" id="parentheses">()</div>
+                <div class="btn green operator" name="%">%</div>
+                <div class="btn green operator" name="/">/</div>
+            </div>
+            <div class="row">
+                <div class="btn operand" name="7">7</div>
+                <div class="btn operand" name="8">8</div>
+                <div class="btn operand" name="9">9</div>
+                <div class="btn green operator" name="*">
+                    <ion-icon name="close"></ion-icon>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="btn operand" name="4">4</div>
+                <div class="btn operand" name="5">5</div>
+                <div class="btn operand" name="6">6</div>
+                <div class="btn green operator" name="-">
+                    <ion-icon name="remove"></ion-icon>
+                </div>
+            </div>
+            <div class="row">
+                <div class="btn operand" name="1">1</div>
+                <div class="btn operand" name="2">2</div>
+                <div class="btn operand" name="3">3</div>
+                <div class="btn green operator" name="+">
+                    <ion-icon name="add"></ion-icon>
+                </div>
+            </div>
+            <div class="row">
+                <div class="btn">+/-</div>
+                <div class="btn operand" name="0">0</div>
+                <div class="btn">.</div>
+                <div class="btn green equal" id="equal">=</div>
+            </div>
+        </div>
+
+    
+    
+    </div>
+</body>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src='./js/Stack.js'></script>
+<script src='./js/Parser.js'></script>
+<script src='./js/Operator.js'></script>
+<script src='./js/Operand.js'></script>
+<script src='./js/Calculator.js'></script>
+<script src='./js/dom.js'></script>
+
+</html>
