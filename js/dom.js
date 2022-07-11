@@ -99,7 +99,5 @@ function main() {
 
 }
 
-// operandlist[i].getAttribute("name");
-
 
 ( () => main() )();
