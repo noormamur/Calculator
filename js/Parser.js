@@ -1,5 +1,3 @@
-// const { Operator } = require("./Operator");
-
 class Parser {
     constructor(str){
         this.str = "";
@@ -35,13 +33,3 @@ class Parser {
         return this.str[this.index] == undefined
     }
 }
-
-// let parser = new Parser("123 + 44 +5 + ( 2^3 )")
-
-
-// while( !parser.isEnd() ){
-//     console.log(parser.getToken())
-// }
-
-
-// module.exports = Parser;
