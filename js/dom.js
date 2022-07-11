@@ -1,5 +1,3 @@
-// const Calculator = require('./Calculator');
-
 function count (arr) {
     var j = 0 ;
 
@@ -105,9 +103,3 @@ function main() {
 
 
 ( () => main() )();
-
-
-
-// let cal = new Calculator();
-// let equal = document.getElementsByClassName("equal");
-// equal.addEventListener("click", () => {cal.calculate(str)})
