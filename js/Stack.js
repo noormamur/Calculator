@@ -43,12 +43,4 @@ class Stack {
 
     
 }
-
-// let st = new Stack();
-// st.push(2)
-
-
-// console.log(st);
-
-// UNCOMMENT THIS FOR NODE.JS
-// module.exports = Stack; 
+ 
