@@ -1,15 +1,3 @@
-// const Parser = require("./Parser");
-// const Stack = require("./Stack");
-// const {
-//     Operator,
-//     Addition,
-//     Subtraction,
-//     Multiplication,
-//     Division,
-//     PowerOf,
-//     OpenPar
-// } = require("./Operator");
-
 class Calculator {
     operandStack = new Stack(); // Ex: [3, 4, 5, 6]
     operatorStack = new Stack(); // [new Add(), new Mulp(), new Add()]
@@ -79,14 +67,3 @@ class Calculator {
 
     }
 }
-
-// let cal = new Calculator("2 * 3 + (3 / 3)");
-
-// console.log(cal.calculate())
-
-
-// module.exports = Calculator;
-
-
-
-
