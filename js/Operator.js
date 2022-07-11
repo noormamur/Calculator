@@ -99,24 +99,3 @@ class OpenPar extends Operator {
         return 0;
     }
 }
-
-
-
-
-// module.exports = {
-//     Operator,
-//     Addition,
-//     Subtraction,
-//     Multiplication,
-//     Division,
-//     PowerOf,
-//     OpenPar
-// };
-
-// module.exports = {
-//     Operator: Operator,
-//     Addition: Addition,
-//     Subtraction: Subtraction,
-//     Multiplication: Multiplication,
-//     Division: Division
-// }
