@@ -31,8 +31,6 @@ body {
 
 .display {
     height: 200px;
-    /* display: flex;
-    align-items: flex-end; */
 }
 #output {
     height: calc(100% - 50px);
@@ -54,7 +52,6 @@ body {
 .icons > div {
     width: 50px;
     height: 50px ;
-    /* background: red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,7 +92,6 @@ hr {
 .row .btn:active {
     background: grey;
     color: white;
-    /* transition: ease 0.5s; */
 }
 
 .row .btn.green {
